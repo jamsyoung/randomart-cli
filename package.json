@@ -1,0 +1,46 @@
+{
+  "name": "randomart-cli",
+  "version": "1.0.0",
+  "author": "jamie young <yungjmes@gmail.com>",
+  "description": "Command line interface for generating randomart for the hell of it",
+  "preferGlobal": true,
+  "main": "lib/randomart-cli.sj",
+  "bin": {
+    "randomart": "./bin/randomart.js"
+  },
+  "man": "man/man1/randomart.1",
+  "os": [
+    "!win32"
+  ],
+  "scripts": {
+    "generate-manpage": "marked-man src/man/man1/randomart.1.md > $(jq -r .man package.json)",
+    "test": "eslint *.js **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/yungjames/randomart-cli/issues"
+  },
+  "homepage": "https:/github.com/yungjames/randomart-cli#readme",
+  "engines": {
+    "node": ">=6.11.2"
+  },
+  "dependencies": {
+    "minimist": "1.2.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.1",
+    "eslint": "4.5.0",
+    "eslint-config-prettier": "2.3.0",
+    "jq-cli-wrapper": "0.4.0",
+    "marked-man": "0.2.1",
+    "prettier-eslint-cli": "4.2.0"
+  },
+  "keywords": [
+    "randomart",
+    "cli"
+  ],
+  "license": "MIT"
+}
