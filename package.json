@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "generate-manpage": "marked-man src/man/man1/randomart.1.md > $(jq -r .man package.json)",
-    "test": "eslint *.js **/*.js"
+    "test": "eslint *.js **/*.js && node test/test.js"
   },
   "repository": {
     "type": "git",

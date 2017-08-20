@@ -27,8 +27,7 @@ There are other randomart projects floating around. The few I ran across are:
 - https://github.com/purpliminal/randomart - a javascript port of:
 - https://github.com/calmh/randomart - written in go
 
-I choose to make my own port of the go version, for no good reason. 😳
-
+I used purpliminal's port.
 
 ---
 "_[I swear he was trying to talk to me, coy koi][pixies]"_
