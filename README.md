@@ -2,7 +2,7 @@
 
 Makes this thing! From the command line!
 
-```
+```bash
 +---[RSA 4096]----+
 |+o               |
 |+=               |
