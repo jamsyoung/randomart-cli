@@ -8,7 +8,6 @@
     "ecmaVersion": 2017
   },
   "rules": {
-    "curly": ["error", "all"],
     "linebreak-style": ["error", "unix"],
     "no-console": "off",
     "no-unused-vars": "error",
